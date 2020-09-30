@@ -1,0 +1,3 @@
+var input = [234, 567, 273, 456, 598, 635, 644, 718, 750, 753, 801]
+var output = input.reduce(function(sum, currentValue){ return sum + currentValue});
+console.log(output);
