@@ -1,0 +1,26 @@
+
+var itemsToBuy = {
+    bread : {
+        isAvailable : false,
+        quantityToBuy : 2,
+    },
+    eggs : {
+        isAvailable : true,
+        quantityToBuy : 0
+    },
+    tomatoes : {
+        isAvailable : false,
+        quantityToBuy : 23
+    }
+}
+
+
+var itemsList = [];
+
+for(key in itemsToBuy){
+    if(itemsToBuy[key].isAvailable === false){
+        itemsList.push(key);
+    }
+}
+
+console.log(itemsList);
