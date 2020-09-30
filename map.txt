@@ -1,0 +1,3 @@
+var input = [189.45, 12.89, 7.43, 167.98, 767.78, 23.89, 990.67, 289.7, 44.56, 97.65, 2345.87, 665.43, 7221.89, 58843.21];
+var output = input.map(function(x){ return x * 100});
+console.log(output);
